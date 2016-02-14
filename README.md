@@ -5,7 +5,7 @@ A simple console application that scrapes the Sainsbury’s grocery site - Ripe 
 
 ## Installation
 
-Composer to build the autoloader. For your convenience a copy of composer.phar has been included in the repository.
+Use Composer to build the autoloader. For your convenience a copy of composer.phar has been included in the repository.
 
 php composer.phar install
 
@@ -17,3 +17,8 @@ For your convenience a copy of PHPUnit has been included in the repository.
 Run 
 
 php phpunit.phar --bootstrap vendor/autoload.php tests/
+
+
+## Run the application
+
+php app/Application.php
